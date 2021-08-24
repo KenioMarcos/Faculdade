@@ -1,4 +1,5 @@
-/* recebe dois números, verifica se são positivos, se forem positivos executa a soma e imprime o resultado na tela, se não forem positivos, retorna para o início */
+/* recebe dois números, verifica se são positivos, se forem positivos executa a soma e imprime o resultado na tela,
+se não forem positivos, retorna para o início */
 
 # include <stdio.h>
 
