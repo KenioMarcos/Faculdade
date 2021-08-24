@@ -1,4 +1,4 @@
-/* Cria uma função void para imprimir na tela uma linha com n símbolos */
+/* Cria uma função void com parâmetros para imprimir na tela uma linha com n símbolos */
 
 #include <stdio.h>
 
