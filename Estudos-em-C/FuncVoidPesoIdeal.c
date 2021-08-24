@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <ctype.h> // necessária para usar a função toupper
 
-void peso_ideal(char sexo, float altura)
+void peso_ideal(char sexo, float altura) // também poderia ser uma função tipada, no caso, com float
 {
     float peso_ideal;
     switch (toupper(sexo)) // toupper para deixar as letras em maiúsculas
