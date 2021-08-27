@@ -1,6 +1,7 @@
 /* inicialização de um vetor, também conhecido por array */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MAX 5
 

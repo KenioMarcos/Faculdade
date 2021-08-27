@@ -1,6 +1,7 @@
 /* Cria uma função void com parâmetros para calcular o peso ideal*/
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h> // necessária para usar a função toupper
 
 void peso_ideal(char sexo, float altura) // também poderia ser uma função tipada, no caso, com float

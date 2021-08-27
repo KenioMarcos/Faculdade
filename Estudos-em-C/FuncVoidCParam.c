@@ -1,6 +1,7 @@
 /* Cria uma função void com parâmetros para imprimir na tela uma linha com n símbolos */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void linha(char c, int count)
 {

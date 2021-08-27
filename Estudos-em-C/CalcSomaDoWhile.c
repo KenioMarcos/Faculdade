@@ -2,6 +2,7 @@
 se não forem positivos, retorna para o início */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {

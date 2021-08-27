@@ -1,6 +1,7 @@
 // recebe dois valores, efetua uma soma e imprime o resultado
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {

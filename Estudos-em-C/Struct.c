@@ -1,6 +1,7 @@
 /* modelo de tipos de dados estruturados */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 struct data
 {

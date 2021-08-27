@@ -1,6 +1,7 @@
 /* Imprime na tela um nome n vezes */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {

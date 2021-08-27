@@ -1,7 +1,7 @@
 /* inicialização de um array bidimensional */
 
 #include <stdio.h>
-#include <stdlib.h> // necessária para a função rand
+#include <stdlib.h>
 
 #define ALUNO 5
 #define NOTA 3

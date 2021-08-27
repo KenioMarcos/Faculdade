@@ -2,6 +2,7 @@
 no main para fatorar um dado número */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int fatorial(int n)
 {
