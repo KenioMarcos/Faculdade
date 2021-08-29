@@ -1,3 +1,5 @@
+/* analisa se é melhor abastecer com álcool ou gasolina */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,11 +29,11 @@ int main()
 
     if (resultado == 0)
     {
-        printf("Compensa abastecer com gasolina.\n");
+        printf("É melhor abastecer com gasolina.\n");
     }
     else if (resultado == 1)
     {
-        printf("Compensa abastecer com álcool.\n");
+        printf("É melhor abastecer com álcool.\n");
     }
     else
     {
