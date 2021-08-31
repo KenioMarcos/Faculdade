@@ -1,4 +1,4 @@
-/* analisa se é melhor abastecer com álcool ou gasolina */
+/* este programa analisa se é melhor abastecer com álcool ou gasolina */
 
 #include <stdio.h>
 #include <stdlib.h>

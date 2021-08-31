@@ -1,4 +1,4 @@
-/* inicialização de um array bidimensional */
+/* este programa mostra a inicialização de um array bidimensional */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,13 +9,13 @@
 int main()
 {
     int linha, coluna;
-    float notas [ALUNO][NOTA]; // poderia se aplicar diretamene o número de linhas e colunas dentro dos colchetes, porém, para aprendizado, optei por criar duas constantes, o que facilita a manutenção em um projeto maior
+    float notas [ALUNO][NOTA]; 
 
     for (size_t linha = 0; linha < ALUNO; linha++)
     {
         for (size_t coluna = 0; coluna < NOTA; coluna++)
         {
-            notas[linha][coluna] = rand() % 10 + 1; // função range gera números aleatórios, nesse caso, de 1 a 10
+            notas[linha][coluna] = rand() % 10 + 1;
         }
     }
     for (size_t linha = 0; linha < ALUNO; linha++)

@@ -1,4 +1,4 @@
-/* inicialização de um array tridimensional */
+/* este programa mostra a inicialização de um array tridimensional */
 
 #include <stdio.h>
 #include <stdlib.h>
