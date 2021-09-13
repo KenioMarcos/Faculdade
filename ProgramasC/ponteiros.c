@@ -19,6 +19,24 @@ int main()
 }
 */
 
+int main(void)
+{
+    int a = 40, *ponteiro1, **ponteiro2;
+
+    ponteiro1 = &a;
+    ponteiro2 = &ponteiro1;
+
+    printf("O endereço da variável a é: %p\n", &a);
+    printf("O endereço do ponteiro 1 é: %p\n", &ponteiro1);
+    printf("O endereço do ponteiro 2 é: %p\n", &ponteiro2);
+    printf("O endereço apontado pelo ponteiro 1 é: %p\n", ponteiro1);
+    printf("O endereço apontado pelo ponteiro 2 é: %p\n", ponteiro2);
+    printf("O valor armazenado em a é: %d\n", **ponteiro2);
+
+    printf("\n");
+    return 0;
+}
+
 // o símbolo * é chamado operador de indireção
 /*
 int main()
@@ -52,7 +70,7 @@ int main()
 */
 
 /*
-// indireção múltipla, ou simplemente, ponteiro para ponteiro
+// indireção múltipla (ponteiro para ponteiro)
 void main(void)
 {
     int x, *p, **q;
@@ -151,6 +169,7 @@ int main()
 */
 
 // mais um exemplo de ponteiro para ponteiro
+/*
 int main()
 {
     int x, *p, **pp;
@@ -163,3 +182,4 @@ int main()
 
     return 0;
 }
+*/
